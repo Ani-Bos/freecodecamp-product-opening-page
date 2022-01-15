@@ -1,0 +1,205 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.5;
+background-color: rgb(253, 240, 242);
+}
+
+ul{
+  list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+#container{
+max-width: 960px;
+margin: 2rem;
+}
+.logo{
+
+    width: 300px;
+}
+
+.btn{
+display: inline-block;
+padding: .7rem 1.3rem;
+color: #333;
+background-color: #fcc900;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+
+#main-header{
+background-color: #defae2;
+color:#333
+}
+#navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+}
+#navbar ul{
+display: flex;
+}
+#navbar ul li{
+    padding: 1rem 2rem;
+}
+#navbar ul li a{
+color: #333;
+font-size:1.2rem;
+}
+.message-box{
+    margin: 2rem;
+    padding: 0.8rem;
+    text-align:center;
+}
+.message-box h1{
+font-size: 1.7rem;
+margin-bottom: 1rem;
+}
+.message-box input{
+display: block;
+margin: auto;
+width: 30%;
+padding: 0.4rem;
+margin-bottom: 1.5rem;
+border: #333;
+border-style: inset;
+}
+/* #features{
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+display: flex;
+flex-direction: column;
+} */
+#features .feature{
+display: inline-flex;
+flex-direction: column;
+justify-self: center;
+align-items: center;
+}
+#features .feature i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .feature div{
+    padding: 1rem;
+}
+#features .feature div h2{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+#pricing{
+display: flex;
+padding: 3rem .2rem;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.price-box{
+border: solid #333 3px;
+border-radius: 2px;
+text-align: center;
+}
+.price-box:first-child{
+margin-right: 1.2rem;
+
+}
+
+.price-box:last-child{
+    margin-left: 1.2rem;
+    }
+    
+.price-box h3{
+    background-color: #ddd;
+    padding: 1rem;
+    font-size: 1.05rem;
+}
+
+.price-box h2{
+  padding: 1rem; 
+}
+
+.price-box p{
+    padding: 0 4rem 1rem;
+}
+
+.price-box .btn{
+display: inline-block;
+margin: 1rem;
+
+}
+
+.contacts{
+text-align: center;
+border: solid #333 3px;
+background-color: #e4f1c5;
+margin-bottom: 2rem;
+}
+
+#main-footer{
+    background-color: #ccc;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-footer a{
+    color: #333;
+    padding: .5rem 1rem;
+}
+#Aniket{
+    text-decoration: underline;
+    padding: 0rem 0rem;
+    margin: 0;
+}
+
+@media (max-width: 800px){
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .4rem;
+    }
+    #navbar ul li{
+        padding: 1rem 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
